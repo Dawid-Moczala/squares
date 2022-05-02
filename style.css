@@ -7,16 +7,17 @@
     background: linear-gradient(90deg, #008080, #ACE1AF);
     border-radius: 30px;
     width: 90vw;
+    height: 100vh;
     margin: 0 auto;
     box-shadow: 20px 0 20px rgba(80, 76, 76, 0.7), 0  20px 15px rgba(80, 76, 76, 0.7), -20px 0 30px rgba(80, 76, 76, 0.7), 0  -20px 35px rgba(80, 76, 76, 0.7);
 }
 .main__header{
     border-radius: 27px 27px 0 0;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3.4vw;
     letter-spacing: 1em;
-    margin: 0 0 3.5em;
-    padding: 1em;
+    margin: 0 0 10vw;
+    padding: 5vw;
     background-color: #000;
     color: #fff;
     text-shadow: 15px 0 15px rgba(80, 76, 76, 0.7), 0 15px 15px rgba(80, 76, 76, 0.7);
@@ -30,7 +31,7 @@
     display: flex;
     justify-content: space-around;
     height: 20vh;
-    margin-bottom: 100px;
+    margin-bottom: 10vw;
 }
 .main__box{
     position: relative;
@@ -39,22 +40,22 @@
 }
 .main__item{
     position: absolute;
-    height: 12em;
-    width: 12em;
+    height: 18vw;
+    width: 18vw;
     border: 3px solid #000;
-    background-color: rgba(38, 105, 228, 0.521);
+    background-color: rgba(39, 209, 209, 0.521);
     transition: background-color 2s, transform 2s;
 }
 .main__box:hover .main__item{
-    background-color: rgb(144, 36, 194);
+    background-color: rgba(206, 22, 22, 0.842);
     transform: rotate(360deg);
 }
 .main__box:hover .main__item:nth-child(2){
-    background-color: rgb(189, 39, 39);
+    background-color: rgba(21, 155, 21, 0.863);
     transform: rotate(90deg);
 }
 .main__box:hover .main__item:last-child{
-    background-color: rgba(22, 170, 34, 0.932);
+    background-color: rgba(49, 21, 209, 0.932);
     transform: rotate(-360deg);
 }
 .button{
@@ -67,11 +68,11 @@
 }
 .button__item{
     font-family: Arial, Verdana, sans-serif;
-    font-size: 1.8em;
+    font-size: 3vw;
     text-shadow: 15px 0 15px rgba(80, 76, 76, 0.7), 0 15px 15px rgba(80, 76, 76, 0.7);
     color: #fff;
     background-color: #000;
-    margin: 2em 0 3.5em;
+    margin: 5vw 0 10vw;
     padding: 1em;
     border-radius: 1em;
 }
@@ -84,4 +85,5 @@
     80% {transform: scale(1.4, 1.4) rotate(-760deg);}
     100% {transform: scale(1, 1) rotate(-720deg);}
 }
+
 
