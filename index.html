@@ -6,38 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Squares</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <main class="main">
-        <h1 class="main__header">Square Box</h1>
-        <div class="main__sections">
-            <section class="main__box">
-                <div class="main__item"></div>
-                <div class="main__item"></div>
-                <div class="main__item"></div>
-            </section>
-            <section class="main__box">
-                <div class="main__item"></div>
-                <div class="main__item"></div>
-                <div class="main__item"></div>
-            </section>
-            <section class="main__box">
-                <div class="main__item"></div>
-                <div class="main__item"></div>
-                <div class="main__item"></div>
-            </section>
-        </div>
-        <div class="button main__button">
-            <div class="button__box">
-                <p class="button__item">Hover On Me</p>
+    <div class="container pt-5 ">
+        <main class="main">
+            <h1 class="main__header col-sm-12">Square Box</h1>
+            <div class="main__sections row">
+                <section class="main__box col-sm-4">
+                    <div class="main__item"></div>
+                    <div class="main__item"></div>
+                    <div class="main__item"></div>
+                </section>
+                <section class="main__box col-sm-4">
+                    <div class="main__item"></div>
+                    <div class="main__item"></div>
+                    <div class="main__item"></div>
+                </section>
+                <section class="main__box col-sm-4">
+                    <div class="main__item"></div>
+                    <div class="main__item"></div>
+                    <div class="main__item"></div>
+                </section>
             </div>
-            <div class="button__box">
-                <p class="button__item">Hover On Me</p>
+            <div class="button main__button row">
+                <div class="button__box col-sm-4">
+                    <p class="button__item">Hover On Me</p>
+                </div>
+                <div class="button__box col-sm-4">
+                    <p class="button__item">Hover On Me</p>
+                </div>
+                <div class="button__box col-sm-4">
+                    <p class="button__item">Hover On Me</p>
+                </div>
             </div>
-            <div class="button__box">
-                <p class="button__item">Hover On Me</p>
-            </div>
-        </div>
-    </main>
+        </main>
+    </div>
 </body>
 </html>
